@@ -1,0 +1,33 @@
+.feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 40rem) {
+  .feed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.nopic {
+  display: block;
+  padding: 1rem;
+  justify-content: center;
+  width: 20rem;
+  background: rgba(176, 176, 176, 0.371);
+  border-radius: .5rem;
+}
+
+.feedback {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;;
+  justify-content: center;
+}
